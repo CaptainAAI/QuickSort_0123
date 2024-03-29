@@ -78,4 +78,4 @@ void q_sort(int low, int high)
 		}
 
 	q_sort(low, j - 1);//step 12
-	
+	q_sort(j + 1, high);// 13
